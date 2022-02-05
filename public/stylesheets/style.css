@@ -48,9 +48,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-bottom: 18px;
 }
 
-#block2{
-    color: green;
-}
+
 
 #signup {
     border: 0.5px solid white;
@@ -117,4 +115,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .getAppBlock {
     margin-bottom: 0;
+}
+
+#block2{
+    color: black;
+}
+
+#block2title {
+    font-size: 20px;
+}
+
+#block2sub {
+    font-size: 9px;
+}
+
+#block2Text {
+    margin-left: 30px;
+    margin-top: 50px;
 }
