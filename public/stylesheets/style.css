@@ -114,22 +114,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .getAppBlock {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 #block2{
     color: black;
+    background-color:white;
 }
 
 #block2title {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #block2sub {
-    font-size: 9px;
+    font-size: 13px;
 }
 
 #block2Text {
-    margin-left: 30px;
-    margin-top: 50px;
+    padding-left: 45px;
+    padding-top: 70px;
+    text-align: left;
+    overflow: auto;
+}
+
+#devices {
+    max-width: 100%;
+    /* float: right; */
+    height: auto;
+    float: right;
+    padding-right: 40px;
 }
