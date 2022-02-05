@@ -2,24 +2,26 @@ doctype html
 html(lang='en')
   head
     style
-      include ../stylesheets/style.css    
-    //- script(type='text/javascript').
-    //-   const foo = true;
-    //-   let bar = function() {};
-    //-   if (foo) {
-    //-   bar(1 + 5)
-    //-   }
+      include ../public/stylesheets/style.css    
+  
   body
     .block1
-      h1
-        | Your Live &
-        br
-        | On-Demand
-        br
-        | Events Platform
-        p
+      .image-block
+      .signInBlock
+        button#signup(type='button') Sign Up
+        h1#login Login
+      img.logo(src="https://i.imgur.com/BjbhHis.png" alt="logo image")
+
+      .block1style
+        h1#title
+          | Your Live & 
+          br
+          | On-Demand
+          br
+          | Events Platform
+        p#subtitle
           | JUNO is an online events platform built to engage
-        
+          br
           | with your audience 365 days a year.
     #block2
       p just testingggggggg
