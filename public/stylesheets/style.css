@@ -11,13 +11,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 /* Removes white space at top of page */
 
-
-
-/* .image-block { 
-    display: flex;
-    flex-direction: row;
-} */
-
 .block1 {
     background: #E3425F;
     
@@ -45,8 +38,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 10px;
     margin-bottom: 18px;
 }
-
-
 
 #signup {
     border: 0.5px solid white;
@@ -144,14 +135,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-bottom: 80px;
 }
 #block3Titles { 
-    color: red;
     padding-left: 60px;
+    padding-bottom: 80px;
 }
 
-.container {  display: grid;
-    grid-template-columns: 0.5fr 1.2fr 1.3fr 1fr;
+#block3Title {
+    font-size: 16px; 
+}
+
+#block3Subtitle {
+    font-size: 45px;
+}
+
+.container {  
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: 0.7fr 1.6fr 2.1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr [F] 1fr;
-    gap: 1px 0px;
+    /* gap: 1px 0px; */
     grid-auto-flow: row;
     grid-template-areas:
       "One oneTitle oneDescrip Picture"
@@ -162,13 +163,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
   .One { grid-area: One; }
   
-  .Two { grid-area: Two; }
+  .Two { grid-area: Two;  }
   
   .Three { grid-area: Three; }
   
   .Four { grid-area: Four; }
   
-  .oneTitle { grid-area: oneTitle; }
+  .oneTitle { grid-area: oneTitle;  }
   
   .twoTitle { grid-area: twoTitle; }
   
@@ -186,3 +187,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
   .Picture { grid-area: Picture; }
   
+  .One,.Two,.Three,.Four {
+      font-size: 60px;
+      padding-left: 50px;
+      font-weight: bolder;
+      color: lightgray;
+
+  }
+
+  .oneTitle, .twoTitle, .threeTitle, .fourTitle, .oneDescrip, .twoDescrip, .threeDescrip, .fourDescrip {
+    padding-top: 12px;
+    color: black;
+    padding-right: 30px;
+    /* padding-left: 20px; */
+  }
+
+  
+  .oneTitle, .twoTitle, .threeTitle, .fourTitle {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .oneDescrip, .twoDescrip, .threeDescrip, .fourDescrip {
+  }
+  
+  #scheduleDemoBtn {
+      align-items: center;
+      justify-content: center;
+  }
