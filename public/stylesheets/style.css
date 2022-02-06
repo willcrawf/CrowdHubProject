@@ -197,13 +197,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 25px;
   }
   
-  #scheduleDemoBtn {
-      margin:0 auto;
-      margin-top: 30px;
-      margin-bottom: 70px;
-      display:block;
 
-  }
+ #scheduleBtn1 {
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display:block;
+
+}
+
+.scheduleDemoBtn {
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
 
   .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
     background-color: #c7159c !important;
@@ -234,4 +240,46 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
+}
+
+#block5 {
+    padding-bottom: auto;
+}
+
+.bg-image {
+    background-image: url('https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.85);
+}
+
+.videoPlayer {
+    width: 65%;
+    height: 50%;
+    padding-top: 100px;
+    padding-right: 50px;
+    float: right;
+}
+
+#block5Titles {
+    padding-top: 100px;
+    padding-left: 60px;
+    position: relative;
+}
+
+#block5Title {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+#block5Subtitle {
+    font-size: 15px;
+    line-height: 25px;
+    color: lightgray;
+}
+
+#scheduleBtn2 {
+    margin-top: 60px;
 }
