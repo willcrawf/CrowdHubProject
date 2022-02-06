@@ -143,17 +143,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding-right: 40px;
     padding-bottom: 80px;
 }
+#block3Titles { 
+    color: red;
+    padding-left: 60px;
+}
 
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1.2fr 1.3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr [F] 1fr;
-    gap: 0px 0px;
+    gap: 1px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "One oneTitle oneDescrip"
-      "Two twoTitle twoDescrip"
-      "Three threeTitle threeDescrip"
-      "Four fourTitle fourDescrip";
+      "One oneTitle oneDescrip Picture"
+      "Two twoTitle twoDescrip Picture"
+      "Three threeTitle threeDescrip Picture"
+      "Four fourTitle fourDescrip Picture";
   }
   
   .One { grid-area: One; }
@@ -179,4 +183,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .threeDescrip { grid-area: threeDescrip; }
   
   .fourDescrip { grid-area: fourDescrip; }
+  
+  .Picture { grid-area: Picture; }
   
