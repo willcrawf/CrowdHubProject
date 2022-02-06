@@ -136,7 +136,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 #block3 {
-    background-color: #f8f8f8;
+    background-color: white;
+    padding-bottom: 30px;
 }
 #block3Titles { 
     padding-left: 60px;
@@ -219,7 +220,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   #scheduleDemoBtn {
       margin:0 auto;
       margin-top: 30px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
       display:block;
 
   }
@@ -228,6 +229,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-color: #c7159c !important;
 }
 
+#block4{
+    background-color: #f7f7f7;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+}
+
 #block4Titles {
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+
+#block4Title {
+    font-size: 45px;
+   
+}
+
+#partnerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
 }
