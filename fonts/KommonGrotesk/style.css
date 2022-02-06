@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kommon Grotesk';
+    src: local('Kommon Grotesk Normal'), local('Kommon-Grotesk-Normal'),
+        url('KommonGrotesk-Normal.woff2') format('woff2'),
+        url('KommonGrotesk-Normal.woff') format('woff'),
+        url('KommonGrotesk-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

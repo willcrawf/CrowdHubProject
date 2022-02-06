@@ -7,13 +7,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    font: 'KommonGrotesk-Normal';
 }
 /* Removes white space at top of page */
 
-@font-face {
-    font-family: 'KommonGrotesk-Normal';
-    src: url(../../static/KommonGrotesk-Normal.ttf);
-}
+
 
 /* .image-block { 
     display: flex;
@@ -22,7 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .block1 {
     background: #E3425F;
-    font-family: 'KommonGrotesk-Normal';
+    
     background: -moz-linear-gradient(top, #E3425F 0%, #2A1566 100%);
     background: -webkit-linear-gradient(top, #E3425F 0%, #2A1566 100%);
     background: linear-gradient(to bottom, #E3425F 0%, #2A1566 100%);
